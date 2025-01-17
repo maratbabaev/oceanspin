@@ -448,6 +448,9 @@ header .container {
   position: relative;
   z-index: 1;
 }
+.banner__content p {
+  filter: drop-shadow(2px 2px 0 rgb(15, 41, 63));
+}
 .banner__content p:nth-child(1) {
   font-size: 20px;
   line-height: 1.2;
@@ -1166,11 +1169,9 @@ footer:before {
   }
   .banner__content p:nth-child(1) {
     font-size: 14px;
-    filter: drop-shadow(2px 2px 0 rgb(15, 41, 63));
   }
   .banner__content p:nth-child(2) {
     font-size: 24px;
-    filter: drop-shadow(2px 2px 0 rgb(15, 41, 63));
   }
   .banner__content a {
     margin-top: 20px;
